@@ -43,7 +43,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -88,7 +88,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 97e0027178212d540ab6bd07709b23f3,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -339,7 +340,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4236894506748154, guid: d9785224f6ba4724a9d75a8b72af3c9c, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4236894506748154, guid: d9785224f6ba4724a9d75a8b72af3c9c, type: 2}
       propertyPath: m_LocalScale.z
@@ -385,11 +386,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4383785454016274, guid: d8cb313ed81eb5c4d858c1dfad71f5ca, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1632904645681204, guid: d8cb313ed81eb5c4d858c1dfad71f5ca, type: 2}
       propertyPath: m_Name
-      value: Landing Pad (1)
+      value: Landing Pad
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8cb313ed81eb5c4d858c1dfad71f5ca, type: 2}
@@ -511,7 +512,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4066185358230720, guid: 481e7b20022c70f49986914fa45f880c, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 481e7b20022c70f49986914fa45f880c, type: 2}
@@ -847,6 +848,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 59b22f15bfb0bbe4a987cbb7345616a0, type: 2}
+    - target: {fileID: 1610644742109546, guid: 74f94fb332d800f49a93b557304df106, type: 2}
+      propertyPath: m_TagString
+      value: Friendly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 74f94fb332d800f49a93b557304df106, type: 2}
   m_IsPrefabParent: 0
@@ -1349,6 +1354,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 59b22f15bfb0bbe4a987cbb7345616a0, type: 2}
+    - target: {fileID: 1255370420304326, guid: d8dd3129cfa40b44c9b3d24b321d7143, type: 2}
+      propertyPath: m_TagString
+      value: Friendly
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8dd3129cfa40b44c9b3d24b321d7143, type: 2}
   m_IsPrefabParent: 0
@@ -1394,7 +1403,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4990657327800486, guid: 99120702758d26942980856161b22f2d, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4990657327800486, guid: 99120702758d26942980856161b22f2d, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
