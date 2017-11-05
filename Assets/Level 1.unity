@@ -400,6 +400,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4174009466967764, guid: 74f94fb332d800f49a93b557304df106,
     type: 2}
   m_PrefabInternal: {fileID: 610519951}
+--- !u!198 &589974134 stripped
+ParticleSystem:
+  m_PrefabParentObject: {fileID: 198481200693231416, guid: 481e7b20022c70f49986914fa45f880c,
+    type: 2}
+  m_PrefabInternal: {fileID: 686270770}
 --- !u!1001 &610519951
 Prefab:
   m_ObjectHideFlags: 0
@@ -514,6 +519,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114056911661829510, guid: 481e7b20022c70f49986914fa45f880c,
+        type: 2}
+      propertyPath: mainEngineParticles
+      value: 
+      objectReference: {fileID: 589974134}
+    - target: {fileID: 114056911661829510, guid: 481e7b20022c70f49986914fa45f880c,
+        type: 2}
+      propertyPath: successParticles
+      value: 
+      objectReference: {fileID: 1687680044}
+    - target: {fileID: 114056911661829510, guid: 481e7b20022c70f49986914fa45f880c,
+        type: 2}
+      propertyPath: deathParticles
+      value: 
+      objectReference: {fileID: 1663914715}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 481e7b20022c70f49986914fa45f880c, type: 2}
   m_IsPrefabParent: 0
@@ -947,6 +967,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b9fea86bbcd52743a0cece80a1e8a0f, type: 2}
   m_IsPrefabParent: 0
+--- !u!198 &1663914715 stripped
+ParticleSystem:
+  m_PrefabParentObject: {fileID: 198995265874045362, guid: 481e7b20022c70f49986914fa45f880c,
+    type: 2}
+  m_PrefabInternal: {fileID: 686270770}
+--- !u!198 &1687680044 stripped
+ParticleSystem:
+  m_PrefabParentObject: {fileID: 198964735020214490, guid: 481e7b20022c70f49986914fa45f880c,
+    type: 2}
+  m_PrefabInternal: {fileID: 686270770}
 --- !u!1001 &1689435205
 Prefab:
   m_ObjectHideFlags: 0
