@@ -989,8 +989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3360d92d8f5efbf4c9e16e502eacfab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 20, z: 0}
-  movementFactor: 0
+  movementVector: {x: 0, y: 10, z: 0}
+  period: 10
 --- !u!4 &1665181889
 Transform:
   m_ObjectHideFlags: 0
