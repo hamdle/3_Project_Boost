@@ -22,6 +22,8 @@ public class Rocket : MonoBehaviour
     AudioSource audioSource;
     State state = State.Alive;
 
+    bool collisionsDiabled = false;
+
     // Use this for initialization
     void Start ()
     {
@@ -38,12 +40,28 @@ public class Rocket : MonoBehaviour
             RespondToThrustInput();
             RespondToRotateInput();
         }
+        
+        if (Debug.isDebugBuild)
+        {
+            RespondToDebugKeys();
+        }
+    }
+
+    private void RespondToDebugKeys()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LoadNextLevel();
+        }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            collisionsDiabled = !collisionsDiabled;
+        }
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        // Ignore collisions when dead
-        if (state != State.Alive)
+        if (state != State.Alive || collisionsDiabled)
             return;
 
         switch (collision.gameObject.tag)
