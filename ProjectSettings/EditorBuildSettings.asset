@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Level 1.unity
     guid: 77b8ca35d40c32449bb63608af59eb56
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/d96dfd8a8ca0a464b886f3a2b934671a
+    guid: d96dfd8a8ca0a464b886f3a2b934671a
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/27a159ca2c7c02043923c03c08abf48e
+    guid: 27a159ca2c7c02043923c03c08abf48e
   - enabled: 1
     path: Assets/Levels/Level 2.unity
-    guid: d96dfd8a8ca0a464b886f3a2b934671a
+    guid: cb3441c295481a644b1804c8f5faa7ae
   - enabled: 1
     path: Assets/Levels/Level 3.unity
-    guid: 27a159ca2c7c02043923c03c08abf48e
+    guid: b47a7dc3c69d022459678a2cbe506858
